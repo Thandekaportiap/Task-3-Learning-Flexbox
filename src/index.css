@@ -1,0 +1,42 @@
+
+body {
+    background-color: bisque;
+    width: 70%;
+   }
+   .container {
+    display: flex;
+    direction: column;
+    justify-content: space-around;
+    line-height: 60px;
+    font-size: 30px;
+   }
+   .item {
+    border: solid 1px black;
+    padding: 60px;
+    margin: 16px;
+    gap: 10px;
+   }
+   #center1 {
+      align-self: center;
+   }
+   .center {
+      border-radius: 50%;
+      background-color: yellow;
+      position: absolute;
+      top: 20%;
+      left: 30%;
+   }
+   .green {
+      background-color: green;
+      flex-grow: 1;
+   }
+   .blue {
+      background-color: lightskyblue;
+   }
+   .red {
+      background-color: red;
+   } 
+
+   .round {
+    flex-grow: 1;
+   }
